@@ -1,0 +1,108 @@
+body {
+  background: url(body_bg.png) repeat-x top #efecca;
+  color: #002f2f;
+  font: normal normal normal 108% / 1.2 Garamond;
+  margin: 0 auto
+}
+
+h1, h2, h3, p, ul, li, div, a, img, ol {
+  margin: 0;
+  padding: 0
+}
+
+h2 {
+  font-size: 1.45em
+}
+
+h3 {
+  font-size: .9em;
+  font-weight: 400
+}
+
+p {
+  overflow: auto;
+  padding: 5px
+}
+
+ul, li {
+  list-style: none
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%
+}
+
+#header {
+  font-size: 3em;
+  font-weight: 700;
+  height: 150px;
+  line-height: 150px;
+  margin: 0 auto;
+  width: 960px
+}
+
+#header a.alink {
+  background: url(banner_bg.png) no-repeat center;
+  display: block;
+  margin-left: 20px;
+  text-indent: -9999px
+}
+
+#header .title {
+  font-family: Georgia;
+  font-size: 3em;
+  font-weight: 800;
+  margin-left: 10px
+}
+
+#navbar {
+  font-size: .95em;
+  font-weight: 700;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 960px
+}
+
+#navbar li {
+  float: left;
+  margin: 0 auto
+}
+
+#navbar a {
+  color: #A7A37E
+}
+
+#navbar a:hover {
+  color: #EFECCA;
+  text-decoration: underline
+}
+
+#navbar li a:link, #navbar li a:visited {
+  display: inline;
+  float: left;
+  line-height: 30px;
+  padding: 0 15px;
+  width: auto
+}
+
+.maincontent {
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #f00;
+  text-decoration: underline;
+  border-bottom: 2px solid #f00;
+}
